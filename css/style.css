@@ -1,0 +1,68 @@
+body{
+  background-color:#333;
+  
+}
+h1,h3{
+  color:white;text-align:center;
+  font-family: 'Press Start 2P', cursive;
+}
+.font{font-family: 'Press Start 2P', cursive;}
+
+.device{
+  position:relative;
+  width:600px;
+  margin: 0px auto;
+}
+.settings{
+  position:absolute;
+  top:150px;left:150px;
+  background-color:#333;
+  width:50%;
+  height:300px;
+  border:solid 30px #222;
+  border-radius:50%;
+  text-align:center;
+  padding:15px;
+}
+.btn{
+  font-family: 'Press Start 2P', cursive;
+  font-size:10px;
+}
+
+.streak{
+  background-color:#222;
+  border-radius:5px;
+  width:100px;
+  height:75px;
+  margin: 20px auto;
+  font-size:45px;
+  color:darkred;
+  line-height:75px;
+}
+
+.segment{
+  width:300px;
+  height:300px;
+  float:left;
+  border:solid 15px #222;
+}
+.red{
+  background-color:red;
+  border-radius:300px 0px 0px 0px;
+  
+}
+.green{
+  background-color:green;
+  border-radius:0px 300px 0px 0px;
+  
+}
+.blue{
+  background-color:blue;
+  border-radius:0px 0px 0px 300px;
+  
+}
+.yellow{
+  background-color:yellow;
+  border-radius:0px 0px 300px 0px;
+  
+}
